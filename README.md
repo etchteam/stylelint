@@ -5,7 +5,7 @@ The [stylelint](https://stylelint.io/) config that we use at [Etch](https://etch
 ## Install
 
 ```bash
-npm install stylelint prettier @etchteam/stylelint-config
+npm i -D stylelint prettier @etchteam/stylelint-config
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ echo "module.exports = { extends: ['@etchteam/stylelint-config'] };" > stylelint
 Run the following:
 
 ```bash
-npm install husky lint-staged
+npm i -D husky lint-staged
 
 echo "module.exports = { '*.{css,scss}': 'stylelint --fix' };" > lint-staged.config.js
 
