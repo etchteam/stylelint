@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "prettier": "^2.8.1",
-    "stylelint": "^14.16.0",
+    "stylelint": "^15.0.0",
     "stylelint-config-prettier": "^9.0.4",
     "stylelint-config-sass-guidelines": "^9.0.1",
     "stylelint-order": "^5.0.0",
