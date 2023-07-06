@@ -22,12 +22,5 @@ module.exports = {
     'max-nesting-depth': 4,
     'order/properties-alphabetical-order': true,
   },
-  ignoreFiles: [
-    "node_modules",
-    "bin",
-    "obj",
-    "*.*",
-    "!*.css",
-    "!*.scss"
-  ]
+  ignoreFiles: ['node_modules', 'bin', 'obj', '*.*', '!*.css', '!*.scss'],
 };
