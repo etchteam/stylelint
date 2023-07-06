@@ -20,6 +20,7 @@ module.exports = {
       utilitySelectors: '^\\.util-[a-z]+$',
     },
     'max-nesting-depth': 4,
+    'order/properties-alphabetical-order': true,
   },
   ignoreFiles: [
     "node_modules",
