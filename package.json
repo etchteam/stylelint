@@ -32,8 +32,8 @@
     "lint-staged": "^13.1.0"
   },
   "dependencies": {
-    "prettier": "^2.8.1",
-    "stylelint": "^15.10.1",
+    "prettier": "^3.0.3",
+    "stylelint": "^15.7.0",
     "stylelint-config-sass-guidelines": "^10.0.0",
     "stylelint-order": "^6.0.3",
     "stylelint-prettier": "^3.0.0",
@@ -41,9 +41,9 @@
     "stylelint-selector-bem-pattern": "^3.0.0"
   },
   "peerDependencies": {
+    "prettier": ">=3.0.0",
     "postcss": "^8.4.24",
     "postcss-scss": "^4.0.6",
-    "prettier": "^2.8.1",
     "stylelint": "^15.7.0"
   },
   "publishConfig": {
