@@ -11,7 +11,7 @@ npm i -D stylelint prettier @etchteam/stylelint-config
 ## Usage
 
 ```bash
-echo "module.exports = { extends: ['@etchteam/stylelint-config'] };" > stylelint.config.js
+echo "module.exports = { extends: ['@etchteam/stylelint-config'] };" > stylelint.config.cjs
 ```
 
 ### With lint-staged
@@ -23,11 +23,11 @@ Run the following:
 ```bash
 npm i -D husky lint-staged
 
-echo "module.exports = { '*.{css,scss}': 'stylelint --fix' };" > lint-staged.config.js
+echo "module.exports = { '*.{css,scss}': 'stylelint --fix' };" > lint-staged.config.cjs
 
-npx husky install
+npx husky init
 
-npx husky set .husky/pre-commit "npx --no-install -- lint-staged"
+echo "npx --no-install -- lint-staged" > .husky/pre-commit
 
 ```
 
@@ -46,7 +46,7 @@ Run the following:
 ```bash
 mkdir .vscode
 
-echo "{ "editor.formatOnSave": false, "editor.codeActionsOnSave": { "source.fixAll.stylelint": true } }" > .vscode/settings.json
+echo "{ \"editor.formatOnSave\": false, \"editor.codeActionsOnSave\": { \"source.fixAll.stylelint\": true } }" > .vscode/settings.json
 ```
 
 ### Exisiting project with VSCode config
