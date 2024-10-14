@@ -21,6 +21,10 @@ module.exports = {
     },
     'max-nesting-depth': 4,
     'order/properties-alphabetical-order': true,
+    'selector-no-qualifying-type': [
+      true,
+      { ignore: ['attribute'], severity: 'warning' },
+    ],
   },
   ignoreFiles: ['node_modules', 'bin', 'obj', '*.*', '!*.css', '!*.scss'],
 };
