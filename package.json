@@ -4,7 +4,7 @@
   "description": "Etch's standard eslint config",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npx stylelint test/**/*.{css,scss}",
     "release": "semantic-release"
   },
   "engines": {
@@ -32,19 +32,19 @@
     "lint-staged": "^13.1.0"
   },
   "dependencies": {
-    "prettier": "^3.0.3",
-    "stylelint": "^15.11.0",
-    "stylelint-config-sass-guidelines": "^10.0.0",
-    "stylelint-order": "^6.0.3",
-    "stylelint-prettier": "^4.0.2",
-    "stylelint-scss": "^5.3.1",
-    "stylelint-selector-bem-pattern": "^3.0.1"
+    "prettier": "^3.5.1",
+    "stylelint": "^16.14.1",
+    "stylelint-config-sass-guidelines": "^12.1.0",
+    "stylelint-order": "^6.0.4",
+    "stylelint-prettier": "^5.0.3",
+    "stylelint-scss": "^6.11.0",
+    "stylelint-selector-bem-pattern": "^4.0.1"
   },
   "peerDependencies": {
     "prettier": ">=3.0.0",
-    "postcss": "^8.4.24",
-    "postcss-scss": "^4.0.6",
-    "stylelint": "^15.7.0"
+    "postcss": ">=8.0.0",
+    "postcss-scss": ">=4.0.0",
+    "stylelint": ">=16.0.0"
   },
   "publishConfig": {
     "access": "public"
