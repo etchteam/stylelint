@@ -33,7 +33,10 @@
 }
 
 diamond-enter {
-  animation-duration: var(--diamond-transition-duration-enter);
+  animation-duration: var(
+    --diamond-transition-duration-enter,
+    --diamond-transition-enter-delay
+  );
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   animation-name: var(--diamond-transition-enter-animation);
