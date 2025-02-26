@@ -25,6 +25,7 @@ module.exports = {
       true,
       { ignore: ['attribute'], severity: 'warning' },
     ],
+    '@stylistic/function-parentheses-space-inside': 'never-single-line',
   },
   ignoreFiles: ['node_modules', 'bin', 'obj', '*.*', '!*.css', '!*.scss'],
 };
