@@ -34,7 +34,7 @@
   "dependencies": {
     "prettier": "^3.5.1",
     "stylelint": "^16.14.1",
-    "stylelint-config-sass-guidelines": "^12.1.0",
+    "stylelint-config-sass-guidelines": "^13.0.0",
     "stylelint-order": "^6.0.4",
     "stylelint-prettier": "^5.0.3",
     "stylelint-scss": "^6.11.0",
