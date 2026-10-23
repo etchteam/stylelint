@@ -15,8 +15,6 @@ permissions:
 jobs:
   publish:
     name: 🚀 Publish
-    permissions:
-      contents: read
     runs-on: ubuntu-latest
     permissions:
       contents: write
